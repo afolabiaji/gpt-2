@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gpt-2"
+version = "0.1.0"
+description = "My re-implementation of GPT-2"
+authors = ["Afolabi Ajibade <a.ajibade@live.co.uk>"]
+readme = "README.md"
+packages = [{include = "gpt_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
